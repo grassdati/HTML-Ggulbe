@@ -8,12 +8,22 @@
 
 
 
-*{padding:0;margin:0}
-li{list-style:none}
-a{text-decoration:none;font-size:14px}
+* {
+    padding:0;
+    margin:0;
+}
+li {
+    list-style:none;
+}
+a {
+    text-decoration:none;
+    font-size:14px;
+}
 body{
     background-color: rgb(243, 243, 239);
-    font-family: 'LINESeedKR-Bd';}
+    font-family: 'LINESeedKR-Bd';
+}
+
 .menu {
     width: auto;
     height: 40px;
