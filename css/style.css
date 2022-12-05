@@ -1,0 +1,237 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'LINESeedKR-Bd';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+*{padding:0;margin:0}
+li{list-style:none}
+a{text-decoration:none;font-size:14px}
+body{
+    background-color: rgb(243, 243, 239);
+    font-family: 'LINESeedKR-Bd';}
+.menu {
+    width: auto;
+    height: 40px;
+    overflow: hidden;
+    margin: auto;
+    border: none;
+}
+  
+
+
+.header-1 {
+    position: sticky;
+    padding-top: 16px;
+    top: -29px;
+    background: rgb(255, 255, 255);
+    z-index:+3;
+}
+
+.header-2 {
+    position: sticky;
+    padding-top: 8px;
+    top: 73px;
+    background: rgb(252, 177, 16);
+    z-index:+2;
+}
+
+.header-3 {
+    position: sticky;
+    padding-top: 8px;
+    top: 78px;
+    background: rgb(255, 205, 98);
+    box-shadow: 0px 1px 30px 8px rgba(119, 119, 119, 0.377) ;
+    z-index:+1;
+}
+ 
+
+.banner-img {
+    text-align: center;
+    background: white;
+    border: none;
+   
+
+}
+
+
+
+button{
+    width: 120px;
+    height: 40px;
+    background-color: rgb(255, 186, 95);
+    color:black;
+    border: none;
+    box-shadow: 0 4px 16px rgb(241, 153, 36);
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.2321s;
+}
+
+button:focus{
+    outline: 0;
+}
+
+button:hover{
+    background-color: rgb(253, 164, 48);
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgb(245, 150, 26);
+    color: white;
+}
+
+.inf {
+    font-size: 70pt;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(245, 245, 241);
+}
+
+.inf1 {
+    font-size: 15pt;
+    font-weight: 100;
+    text-align: center;
+    background-color: rgb(245, 245, 241);
+    height: 80px;
+}
+
+.info-1 {
+    margin: 60px;
+    text-align: center;
+    padding: 100px;
+    font-weight: bold;
+    font-size: 120px;
+    background: rgb(26, 26, 26);
+    color: white;
+
+    border: none;
+    border-radius: 50px;
+}
+.info-2 {
+    width: 45.3%;
+    float: left;
+    margin-right: 0px;
+    margin-left: 60px;
+    margin-top: 0px;
+    margin-bottom: 60px;
+    box-sizing: border-box;
+
+    text-align: center;
+    padding: 100px;
+    font-weight: bold;
+    font-size: 120px;
+    background: rgb(53, 87, 235);
+    color: white;
+
+    border: none;
+    border-radius: 50px;
+}
+
+.info-3 {
+    width: 45.3%;
+    float: right;
+    margin-right: 60px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 60px;
+    box-sizing: border-box;
+
+    text-align: center;
+    padding: 100px;
+    font-weight: bold;
+    font-size: 120px;
+    background: rgb(252, 177, 16);
+    color: black;
+
+    border: none;
+    border-radius: 50px;
+}
+
+.login-bar {
+    text-align: center;
+    height: 30px;
+}
+
+.pro {
+    font-size: 70pt;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(250, 188, 74);
+ }
+
+ .pro1 {
+    font-size: 15pt;
+    font-weight: 100;
+    text-align: center;
+    background-color: rgb(250, 188, 74);
+    height: 80px;
+ }
+
+ .show2 {
+    position: absolute;
+    color: white;
+    background-color: white;
+    box-shadow: 0 10px 10px rgb(245, 150, 26);
+    width: 100%;
+    text-align: center;
+}
+
+.underbar {
+  text-align: center;
+  font-size: 10pt;
+  color: white;
+  background-color: rgb(43, 43, 43);
+  width: auto;
+  height: 50px;
+  line-height: 50px;
+  font-weight: lighter;
+}
+
+.centerimg {
+    text-align: center;
+}
+
+
+
+
+
+.imgdefault {
+
+    border-radius: 20%;
+    overflow: hidden;
+    position: absolute;
+    left: 1000px;
+    top: 1000px;   
+}
+
+.about  {
+    width: auto;
+    height: auto;
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-left: 290px;
+    color: white;
+    font-size: 90pt;
+    background: rgb(26, 26, 26);
+}
+.about-1  {
+    width: auto;
+    height: auto;
+    padding-left: 290px;
+    color: white;
+    font-size: 30pt;
+    background: rgb(26, 26, 26);
+}
+.about-2  {
+    width: auto;
+    height: auto;
+    padding-top: 180px;
+    padding-left: 290px;
+    color: white;
+    font-size: 30pt;
+    background: rgb(26, 26, 26);
+}
+
